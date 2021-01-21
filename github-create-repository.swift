@@ -1,3 +1,23 @@
+/**
+ *  Create GitHub Repository - Raycast Script Command
+ *  Copyright (c) Thiago Holanda 2021
+ *  https://twitter.com/tholanda
+ *
+ *  MIT license
+ *
+ *  Inspired by:
+ *
+ *  Chris Eidhof 
+ *  https://gist.github.com/chriseidhof/26768f0b63fa3cdf8b46821e099df5ff
+ * 
+ *  Matt Gallagher
+ *  https://www.cocoawithlove.com/2010/09/minimalist-cocoa-programming.html
+ *  
+ *  Satori Maru 
+ *  https://gist.github.com/usagimaru/c0a03ef86b5829fb9976b650ec2f1bf4   
+ *
+ */
+
 import Foundation
 import Combine
 import SwiftUI
@@ -30,8 +50,6 @@ extension NSApplication {
     run()
   }
 }
-
-// Inspired by https://www.cocoawithlove.com/2010/09/minimalist-cocoa-programming.html
 
 extension NSApplication {
   var customMenu: NSMenu {
@@ -337,8 +355,7 @@ extension NSImage {
     
     return image
   }
-  
-  // Inspirated by https://gist.github.com/usagimaru/c0a03ef86b5829fb9976b650ec2f1bf4
+
   func tintColor(_ color: Color) -> NSImage {
     let color = NSColor(color)
     
