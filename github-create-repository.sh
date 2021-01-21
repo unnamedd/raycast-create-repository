@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Dependency: This script requires Swift, AppKit and SwiftUI
+# Dependency: This script requires Big Sur, Swift, AppKit and SwiftUI 2.0
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -20,7 +20,7 @@
 # @raycast.authorURL https://twitter.com/tholanda
 # @raycast.description Create repository on GitHub
 
-access_token="9703cb27d968365f02696b11ad8e181abdc65dc8" # Put here, between the double quotes your GitHub Access Token
+access_token="" # Put here, between the double quotes your GitHub Access Token
 
 current_file_name=$(basename "$0")
 base_filename="github-create-repository"
